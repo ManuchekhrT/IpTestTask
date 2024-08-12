@@ -1,0 +1,52 @@
+[versions]
+kotlin = "2.0.0"
+androidGradlePlugin = "8.1.2"
+core = "1.9.0"
+composeBom = "2023.03.00"
+activityCompose = "1.9.1"
+daggerHilt = "2.51.1"
+roomDb = "2.6.1"
+ksp = "2.0.10-1.0.24"
+materialIconsExtended = "1.6.8"
+hiltNavigation = "1.2.0"
+navigation = "2.7.7"
+lifecycle = "2.8.4"
+gson = "2.11.0"
+junit = "4.13.2"
+testExtJunit = "1.2.1"
+espressoCore = "3.6.1"
+
+[libraries]
+core = { group = "androidx.core", name = "core-ktx", version.ref = "core" }
+
+dagger-hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "daggerHilt" }
+dagger-hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "daggerHilt" }
+
+room-db = { group = "androidx.room", name = "room-ktx", version.ref = "roomDb" }
+room-db-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomDb" }
+room-db-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomDb" }
+
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+compose-ui = { module = "androidx.compose.ui:ui" }
+compose-ui-graphics = { module = "androidx.compose.ui:ui-graphics" }
+compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+compose-material3 = { module = "androidx.compose.material3:material3" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended", version.ref = "materialIconsExtended" }
+hilt-naviation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigation" }
+naviation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation" }
+lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "testExtJunit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4", version.ref = "espressoCore" }
+
+[plugins]
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "daggerHilt" }
+devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }

@@ -55,7 +55,7 @@ fun ItemCard(
     onDeleteClick: (Item) -> Unit,
     onUpdateClick: (Int) -> Unit
 ) {
-    var updatedAmount by remember { mutableStateOf(item.amount) }
+    var updatedAmount by remember(key1 = item.id) { mutableStateOf(item.amount) }
     var showDeleteDialog by remember { mutableStateOf(false) }
     var showUpdateDialog by remember { mutableStateOf(false) }
 
