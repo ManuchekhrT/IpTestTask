@@ -1,4 +1,4 @@
-Задание: https://disk.yandex.ru/d/h4gg3wzQCbbRLA)
+Задание: https://disk.yandex.ru/d/h4gg3wzQCbbRLA
 
 Написать демонстрационное Android приложение для просмотра списка
 товаров в виде карточек с использованием фреймворка Jetpack Compose и
