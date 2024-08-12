@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">IpTestTask</string>
+
+    <string name="edit_icon_description">Edit Icon</string>
+    <string name="delete_icon_description">Delete Icon</string>
+    <string name="settings_icon_description">Settings Icon</string>
+    <string name="search_icon_description">Search Icon</string>
+    <string name="close_icon_description">Close Icon</string>
+    <string name="minus_icon_description">Minus Icon</string>
+    <string name="plus_icon_description">Plus Icon</string>
+    <string name="dialog_icon_description">Dialog Icon</string>
+
+    <string name="amount_label">Количество товара</string>
+    <string name="list_items">Список товаров</string>
+    <string name="search_item">Поиск товара</string>
+    <string name="accept">Принять</string>
+    <string name="cancel">Отмена</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="delete_item_dialog_title">Удаление товара</string>
+    <string name="delete_item_dialog_text">Вы действительно хотите удалить выбранный товар?</string>
+    <string name="stock_label">На складе</string>
+    <string name="date_added_label">Дата добавления</string>
+
+</resources>
